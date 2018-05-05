@@ -60,4 +60,14 @@ public class CheckoutTests {
         int result = checkout.total();
         Assert.assertEquals(15, result);
     }
+
+    @Test
+    public void WhenScanningABCTotalIs95() {
+        Checkout checkout = new Checkout(_rules);
+        checkout.scan('A');
+        checkout.scan('B');
+        checkout.scan('C');
+        int result = checkout.total();
+        Assert.assertEquals(95, result);
+    }
 }
