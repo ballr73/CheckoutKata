@@ -4,18 +4,17 @@ import com.coder73.Checkout;
 import com.coder73.PricingRule;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CheckoutTests {
-    List<PricingRule> _rules = new ArrayList<PricingRule>();
+    List<PricingRule> _rules = new ArrayList<>();
 
     @Before
     public void Given() {
-        _rules.add(new PricingRule('A', 50));
+        _rules.add(new PricingRule('A', 50, 3, 125));
         _rules.add(new PricingRule('B', 30));
     }
     @Test
@@ -24,6 +23,16 @@ public class CheckoutTests {
         checkout.scan('A');
         int result = checkout.total();
         Assert.assertEquals(50, result);
+    }
+
+    @Test
+    public void WhenScanningAAATotalIs125() {
+        Checkout checkout = new Checkout(_rules);
+        checkout.scan('A');
+        checkout.scan('A');
+        checkout.scan('A');
+        int result = checkout.total();
+        Assert.assertEquals(125, result);
     }
 
     @Test

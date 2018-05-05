@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Checkout {
     private final List<PricingRule> rules;
-    private HashSet<BasketItem> _basket = new HashSet<BasketItem>();
+    private List<BasketItem> _basket = new ArrayList<>();
 
     public void Checkout() {}
 
@@ -15,7 +15,19 @@ public class Checkout {
     }
 
     public void scan(char sku) {
-        _basket.add(new BasketItem(sku));
+       BasketItem item =  findItem(sku);
+       if(item !=null)
+           item.setQuantity(item.getQuantity()+1);
+       else
+           _basket.add(new BasketItem(sku));
+    }
+
+    private BasketItem findItem(char sku) {
+        for (BasketItem item: _basket) {
+            if(item.getSku() == sku)
+                return item;
+        }
+        return null;
     }
 
     public int total() {
@@ -23,7 +35,15 @@ public class Checkout {
         for (BasketItem item: _basket) {
             PricingRule rule = findRule(item);
             if(rule != null) {
-                total += rule.getPrice();
+                if(rule.getMultiBuy() > 0 && item.getQuantity() >= rule.getMultiBuy()){
+                    int multiples = item.getQuantity() / rule.getMultiBuy();
+                    total += rule.getMultiPrice() * multiples;
+                    int remaining = item.getQuantity() - (multiples * rule.getMultiBuy());
+                    total += remaining * rule.getPrice();
+                }
+                else {
+                    total += item.getQuantity() * rule.getPrice();
+                }
             }
         }
 
