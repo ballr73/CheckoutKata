@@ -1,7 +1,6 @@
 package com.coder73;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 public class Checkout {
@@ -35,15 +34,7 @@ public class Checkout {
         for (BasketItem item: _basket) {
             PricingRule rule = findRule(item);
             if(rule != null) {
-                if(rule.getMultiBuy() > 0 && item.getQuantity() >= rule.getMultiBuy()){
-                    int multiples = item.getQuantity() / rule.getMultiBuy();
-                    total += rule.getMultiPrice() * multiples;
-                    int remaining = item.getQuantity() - (multiples * rule.getMultiBuy());
-                    total += remaining * rule.getPrice();
-                }
-                else {
-                    total += item.getQuantity() * rule.getPrice();
-                }
+                total += new PricingProvider(item, rule).getPricingCalculator().getTotal();
             }
         }
 
