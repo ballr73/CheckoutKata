@@ -16,6 +16,7 @@ public class CheckoutTests {
     public void Given() {
         _rules.add(new PricingRule('A', 50, 3, 125));
         _rules.add(new PricingRule('B', 30));
+        _rules.add(new PricingRule('C', 15));
     }
     @Test
     public void WhenScanningATotalIs50() {
@@ -50,5 +51,13 @@ public class CheckoutTests {
         checkout.scan('B');
         int result = checkout.total();
         Assert.assertEquals(80, result);
+    }
+
+    @Test
+    public void WhenScanningCTotalIs15() {
+        Checkout checkout = new Checkout(_rules);
+        checkout.scan('C');
+        int result = checkout.total();
+        Assert.assertEquals(15, result);
     }
 }
