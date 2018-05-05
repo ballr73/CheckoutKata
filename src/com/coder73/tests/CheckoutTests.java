@@ -1,6 +1,7 @@
 package com.coder73.tests;
 
 import com.coder73.Checkout;
+import com.coder73.PricingProvider;
 import com.coder73.PricingRule;
 import org.junit.Assert;
 import org.junit.Before;
@@ -11,16 +12,18 @@ import java.util.List;
 
 public class CheckoutTests {
     List<PricingRule> _rules = new ArrayList<>();
+    private PricingProvider _pricingProvider;
 
     @Before
     public void Given() {
+        _pricingProvider = new PricingProvider();
         _rules.add(new PricingRule('A', 50, 3, 125));
         _rules.add(new PricingRule('B', 30));
         _rules.add(new PricingRule('C', 15));
     }
     @Test
     public void WhenScanningATotalIs50() {
-        Checkout checkout = new Checkout(_rules);
+        Checkout checkout = new Checkout(_pricingProvider, _rules);
         checkout.scan('A');
         int result = checkout.total();
         Assert.assertEquals(50, result);
@@ -28,7 +31,7 @@ public class CheckoutTests {
 
     @Test
     public void WhenScanningAAATotalIs125() {
-        Checkout checkout = new Checkout(_rules);
+        Checkout checkout = new Checkout(_pricingProvider, _rules);
         checkout.scan('A');
         checkout.scan('A');
         checkout.scan('A');
@@ -38,7 +41,7 @@ public class CheckoutTests {
 
     @Test
     public void WhenScanningBTotalIs30() {
-        Checkout checkout = new Checkout(_rules);
+        Checkout checkout = new Checkout(_pricingProvider, _rules);
         checkout.scan('B');
         int result = checkout.total();
         Assert.assertEquals(30, result);
@@ -46,7 +49,7 @@ public class CheckoutTests {
 
     @Test
     public void WhenScanningABTotalIs80() {
-        Checkout checkout = new Checkout(_rules);
+        Checkout checkout = new Checkout(_pricingProvider, _rules);
         checkout.scan('A');
         checkout.scan('B');
         int result = checkout.total();
@@ -55,7 +58,7 @@ public class CheckoutTests {
 
     @Test
     public void WhenScanningCTotalIs15() {
-        Checkout checkout = new Checkout(_rules);
+        Checkout checkout = new Checkout(_pricingProvider, _rules);
         checkout.scan('C');
         int result = checkout.total();
         Assert.assertEquals(15, result);
@@ -63,7 +66,7 @@ public class CheckoutTests {
 
     @Test
     public void WhenScanningABCTotalIs95() {
-        Checkout checkout = new Checkout(_rules);
+        Checkout checkout = new Checkout(_pricingProvider, _rules);
         checkout.scan('A');
         checkout.scan('B');
         checkout.scan('C');

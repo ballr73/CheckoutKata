@@ -6,10 +6,14 @@ import java.util.List;
 public class Checkout {
     private final List<PricingRule> rules;
     private List<BasketItem> _basket = new ArrayList<>();
+    private PricingProvider _pricingProvider;
 
-    public void Checkout() {}
+    public void Checkout() {
 
-    public Checkout(List<PricingRule> rules) {
+    }
+
+    public Checkout(PricingProvider pricingProvider, List<PricingRule> rules) {
+        this._pricingProvider = pricingProvider;
         this.rules = rules;
     }
 
@@ -34,7 +38,7 @@ public class Checkout {
         for (BasketItem item: _basket) {
             PricingRule rule = findRule(item);
             if(rule != null) {
-                total += new PricingProvider(item, rule).getPricingCalculator().getTotal();
+                total += this._pricingProvider.getPricingCalculator(item, rule).getTotal();
             }
         }
 

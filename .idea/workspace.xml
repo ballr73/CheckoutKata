@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf67255-cdb3-4a2b-8e59-42e6b3036d3d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coder73/PricingCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coder73/PricingProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coder73/StandardPricingCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coder73/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coder73/PricingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/PricingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CheckoutTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="132">
+              <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,21 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricingRule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingRule.java">
+      <file leaf-file-name="PricingCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -53,12 +41,10 @@
       <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/coder73/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="94">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,52 +53,8 @@
       <file leaf-file-name="PricingProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PricingCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscountPricingCalculator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandardPricingCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/StandardPricingCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasketItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/BasketItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -141,12 +83,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/coder73/PricingRule.java" />
         <option value="$PROJECT_DIR$/src/com/coder73/BasketItem.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java" />
         <option value="$PROJECT_DIR$/src/com/coder73/PricingCalculator.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/PricingProvider.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/Checkout.java" />
         <option value="$PROJECT_DIR$/src/com/coder73/StandardPricingCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/coder73/PricingProvider.java" />
+        <option value="$PROJECT_DIR$/src/com/coder73/Checkout.java" />
+        <option value="$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java" />
       </list>
     </option>
   </component>
@@ -366,19 +308,24 @@
       <option name="project" value="LOCAL" />
       <updated>1525536880454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor for pricing calculators">
+      <created>1525537712182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525537712182</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor for pricing calculators">
+      <created>1525537934061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525537934061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutTests - 2018.05.05 at 10h 36m 02s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.05 at 16h 15m 40s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.05 at 16h 18m 18s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutTests - 2018.05.05 at 17h 02m 22s.xml">
       <configuration name="CheckoutTests" configurationId="JUnit" />
     </history-entry>
@@ -400,6 +347,15 @@
     <history-entry file="CheckoutTests - 2018.05.05 at 17h 25m 55s.xml">
       <configuration name="CheckoutTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CheckoutTests - 2018.05.05 at 17h 27m 50s.xml">
+      <configuration name="CheckoutTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTests - 2018.05.05 at 17h 31m 40s.xml">
+      <configuration name="CheckoutTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTests - 2018.05.05 at 17h 34m 59s.xml">
+      <configuration name="CheckoutTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="806" extended-state="0" />
@@ -407,7 +363,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32944608" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -440,7 +396,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="added multibuy feature" />
     <MESSAGE value="added unit test for sku 'c'" />
-    <option name="LAST_COMMIT_MESSAGE" value="added unit test for sku 'c'" />
+    <MESSAGE value="refactor for pricing calculators" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor for pricing calculators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,16 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -521,32 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coder73/StandardPricingCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -556,8 +477,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
