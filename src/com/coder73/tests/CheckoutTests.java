@@ -69,4 +69,10 @@ public class CheckoutTests {
         int result = _checkout.total();
         Assert.assertEquals(95, result);
     }
+    public void WhenVoidingATotalIs50 () {
+        _checkout.scan('A');
+        _checkout.scan('A');
+        _checkout.voidItem('A');
+        Assert.assertEquals(50, _checkout.total());
+    }
 }

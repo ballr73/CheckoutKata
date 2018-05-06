@@ -16,7 +16,9 @@ public class Checkout {
         this._pricingProvider = pricingProvider;
         this.rules = rules;
     }
-
+    public List<BasketItem> getBasket() {
+        return _basket;
+    }
     public void scan(char sku) {
        BasketItem item =  findItem(sku);
        if(item !=null)
@@ -52,5 +54,15 @@ public class Checkout {
             }
         }
         return null;
+    }
+
+    public void voidItem(char sku) {
+        BasketItem item = findItem(sku);
+        if(item != null) {
+            item.setQuantity(item.getQuantity() - 1);
+
+            if (item.getQuantity() == 0)
+                _basket.remove(item);
+        }
     }
 }
