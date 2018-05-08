@@ -1,4 +1,6 @@
-package com.coder73;
+package com.coder73.ui;
+
+import com.coder73.ui.App;
 
 import javax.swing.*;
 

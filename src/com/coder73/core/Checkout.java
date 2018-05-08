@@ -1,6 +1,7 @@
-package com.coder73;
+package com.coder73.core;
 
-import java.sql.*;
+import com.coder73.service.PricingService;
+
 import java.util.ArrayList;
 import java.util.List;
 

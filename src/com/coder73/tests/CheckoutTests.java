@@ -1,15 +1,10 @@
 package com.coder73.tests;
 
-import com.coder73.Checkout;
-import com.coder73.MockPricingService;
-import com.coder73.PricingProvider;
-import com.coder73.PricingRule;
+import com.coder73.core.Checkout;
+import com.coder73.core.PricingProvider;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class CheckoutTests {
     private Checkout _checkout;

@@ -1,4 +1,7 @@
-package com.coder73;
+package com.coder73.service;
+
+import com.coder73.core.PricingRule;
+import com.coder73.service.PricingService;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -12,7 +15,7 @@ public class DbPricingService implements PricingService {
         List<PricingRule> rules = new ArrayList<>();
         try {
 
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Checkout?user=guest&password=Pa55w0rd");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Checkout?user=guest&password=Pa55w0rd&autoReconnect=true&useSSL=false");
             Statement st =  conn.createStatement();
             ResultSet rs = st.executeQuery("Select * from PricingRules");
 

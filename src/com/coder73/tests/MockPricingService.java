@@ -1,4 +1,7 @@
-package com.coder73;
+package com.coder73.tests;
+
+import com.coder73.service.PricingService;
+import com.coder73.core.PricingRule;
 
 import java.util.ArrayList;
 import java.util.List;

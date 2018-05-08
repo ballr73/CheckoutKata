@@ -1,4 +1,4 @@
-package com.coder73;
+package com.coder73.core;
 
 public class DiscountPricingCalculator implements PricingCalculator {
     private BasketItem item;
