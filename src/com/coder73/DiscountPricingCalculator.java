@@ -9,9 +9,9 @@ public class DiscountPricingCalculator implements PricingCalculator {
         this.rule = rule;
     }
 
-    public int getTotal() {
-        int total = 0;
-        if(item.getSku() == rule.getSku()) {
+    public double getTotal() {
+        double total = 0;
+        if(item.getSku().equals(rule.getSku())) {
             int multiples = item.getQuantity() / rule.getMultiBuy();
             total += rule.getMultiPrice() * multiples;
             int remaining = item.getQuantity() - (multiples * rule.getMultiBuy());

@@ -1,31 +1,46 @@
 package com.coder73;
 
 public class PricingRule {
-    private final char sku;
-    private final int price;
+    private final int id;
+    private final String sku;
+    private final double price;
     private final int multiBuy;
-    private final int multiPrice;
+    private final double multiPrice;
 
-    public PricingRule(char sku, int price) {
+
+    public PricingRule(String sku, double price) {
         this.sku = sku;
         this.price = price;
         this.multiBuy = 0;
         this.multiPrice = 0;
+        this.id = 0;
     }
 
-    public PricingRule(char sku, int price, int multiBuy, int multiPrice) {
+    public PricingRule(String sku, double price, int multiBuy, double multiPrice) {
+        this.sku = sku;
+        this.price = price;
+        this.multiBuy = multiBuy;
+        this.multiPrice = multiPrice;
+        this.id = 0;
+    }
+
+    public PricingRule(int id, String sku, double price, int multiBuy, double multiPrice) {
+        this.id = id;
         this.sku = sku;
         this.price = price;
         this.multiBuy = multiBuy;
         this.multiPrice = multiPrice;
     }
 
+    public int getId() {
+        return id;
+    }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public char getSku() {
+    public String getSku() {
         return sku;
     }
 
@@ -33,7 +48,9 @@ public class PricingRule {
         return multiBuy;
     }
 
-    public int getMultiPrice() {
+    public double getMultiPrice() {
         return multiPrice;
     }
+
+
 }

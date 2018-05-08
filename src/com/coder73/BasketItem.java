@@ -1,15 +1,15 @@
 package com.coder73;
 
 public class BasketItem {
-    private final char sku;
+    private final String sku;
     private int quantity;
 
-    public BasketItem(char sku) {
+    public BasketItem(String sku) {
         this.sku = sku;
         this.quantity = 1;
     }
 
-    public char getSku() {
+    public String getSku() {
         return this.sku;
     }
 

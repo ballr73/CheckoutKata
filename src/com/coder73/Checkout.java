@@ -1,25 +1,27 @@
 package com.coder73;
 
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Checkout {
-    private final List<PricingRule> rules;
+    private List<PricingRule> _rules = new ArrayList<>();
     private List<BasketItem> _basket = new ArrayList<>();
     private PricingProvider _pricingProvider;
+    private PricingService _pricingService;
 
-    public void Checkout() {
+    public void Checkout() { }
 
-    }
+    public Checkout(PricingProvider pricingProvider, PricingService pricingService) {
+        _pricingProvider = pricingProvider;
+        _pricingService = pricingService;
+        _rules = _pricingService.getPricingRules();
 
-    public Checkout(PricingProvider pricingProvider, List<PricingRule> rules) {
-        this._pricingProvider = pricingProvider;
-        this.rules = rules;
     }
     public List<BasketItem> getBasket() {
         return _basket;
     }
-    public void scan(char sku) {
+    public void scan(String sku) {
        BasketItem item =  findItem(sku);
        if(item !=null)
            item.setQuantity(item.getQuantity()+1);
@@ -27,16 +29,16 @@ public class Checkout {
            _basket.add(new BasketItem(sku));
     }
 
-    private BasketItem findItem(char sku) {
+    private BasketItem findItem(String sku) {
         for (BasketItem item: _basket) {
-            if(item.getSku() == sku)
+            if(item.getSku().equals(sku))
                 return item;
         }
         return null;
     }
 
-    public int total() {
-        int total = 0;
+    public double total() {
+        double total = 0;
         for (BasketItem item: _basket) {
             PricingRule rule = findRule(item);
             if(rule != null) {
@@ -48,15 +50,15 @@ public class Checkout {
     }
 
     private PricingRule findRule(BasketItem item) {
-        for (PricingRule r: this.rules) {
-            if(item.getSku() == r.getSku()) {
+        for (PricingRule r: this._rules) {
+            if(item.getSku().equals(r.getSku())) {
                 return r;
             }
         }
         return null;
     }
 
-    public void voidItem(char sku) {
+    public void voidItem(String sku) {
         BasketItem item = findItem(sku);
         if(item != null) {
             item.setQuantity(item.getQuantity() - 1);

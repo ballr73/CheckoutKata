@@ -17,19 +17,13 @@ public class App {
     private Checkout checkout;
 
     public App() {
-        PricingProvider pricingProvider = new PricingProvider();
-        List<PricingRule> pricingRules = new ArrayList<>();
-        pricingRules.add(new PricingRule('A', 50, 3, 125));
-        pricingRules.add(new PricingRule('B', 30));
-        pricingRules.add(new PricingRule('C', 15));
-
-        checkout = new Checkout(pricingProvider, pricingRules);
+        checkout = new Checkout(new PricingProvider(), new DbPricingService());
 
         scanButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                checkout.scan(textField1.getText().toCharArray()[0]);
+                checkout.scan(textField1.getText());
 
                 textArea1.setText("");
                 for (BasketItem item: checkout.getBasket()) {
@@ -42,7 +36,7 @@ public class App {
         voidButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                checkout.voidItem(textField1.getText().toCharArray()[0]);
+                checkout.voidItem(textField1.getText());
                 label1.setText(String.valueOf(checkout.total()));
                 textArea1.setText("");
                 for (BasketItem item: checkout.getBasket()) {

@@ -8,8 +8,8 @@ public class StandardPricingCalculator implements PricingCalculator {
         this.item = item;
         this.rule = rule;
     }
-    public int getTotal(){
-        if(item.getSku() == rule.getSku())
+    public double getTotal(){
+        if(item.getSku().equals(rule.getSku()))
             return item.getQuantity() * rule.getPrice();
 
         return 0;
