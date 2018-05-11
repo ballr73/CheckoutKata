@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="314012e6-c284-4ba9-80e0-8df2b988df36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/coder73/service/PricingRuleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +38,8 @@
       <file leaf-file-name="DbPricingService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="17" column="115" selection-start-line="17" selection-start-column="115" selection-end-line="17" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -154,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckoutTests">
+  <component name="RunManager" selected="Application.CheckoutApplication">
     <configuration name="CheckoutApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coder73.ui.CheckoutApplication" />
       <module name="CheckoutKata" />
@@ -236,8 +229,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CheckoutTests" />
         <item itemvalue="Application.CheckoutApplication" />
+        <item itemvalue="JUnit.CheckoutTests" />
       </list>
     </recent_temporary>
   </component>
@@ -252,10 +245,28 @@
       <option name="presentableId" value="Default" />
       <updated>1526055743076</updated>
     </task>
+    <task id="LOCAL-00001" summary="rule mapper">
+      <created>1526057096466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526057096466</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rule mapper">
+      <created>1526061580255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526061580255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="CheckoutTests - 2018.05.11 at 17h 23m 00s.xml">
+      <configuration name="CheckoutTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTests - 2018.05.11 at 17h 44m 43s.xml">
       <configuration name="CheckoutTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -272,7 +283,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983682" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983682" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -293,6 +304,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rule mapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="rule mapper" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
@@ -324,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="17" column="115" selection-start-line="17" selection-start-column="115" selection-end-line="17" selection-end-column="115" />
         </state>
       </provider>
     </entry>
