@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf67255-cdb3-4a2b-8e59-42e6b3036d3d" name="Default" comment="">
+    <list default="true" id="314012e6-c284-4ba9-80e0-8df2b988df36" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/coder73/service/PricingRuleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coder73/App.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coder73/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coder73/CheckoutApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/CheckoutApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coder73/DbPricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/DbPricingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,80 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="CheckoutTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PricingCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscountPricingCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/ui/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/Checkout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasketItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/BasketItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbPricingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/DbPricingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,28 +33,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/ui/App.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="MockPricingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/MockPricingService.java">
+      <file leaf-file-name="CheckoutApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/coder73/ui/CheckoutApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingService.java">
+      <file leaf-file-name="DbPricingService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="179">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PricingRuleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/coder73/service/PricingRuleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,23 +68,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Singleton" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>multibuy</find>
-      <find>classpath</find>
-      <find>char sku</find>
-      <find>pricingProvider</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/.idea</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,93 +78,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/coder73/PricingProvider.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/TestForm.form" />
-        <option value="$PROJECT_DIR$/src/com/coder73/CheckoutApplication.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/App.form" />
-        <option value="$PROJECT_DIR$/src/com/coder73/BasketItem.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/PricingRule.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/StandardPricingCalculator.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/IPricingCalculator.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/PricingCalculator.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/PricingService.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/MockPricingService.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/App.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/Checkout.java" />
-        <option value="$PROJECT_DIR$/src/com/coder73/DbPricingService.java" />
+        <option value="$PROJECT_DIR$/src/com/coder73/service/PricingRuleMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
     <option name="y" value="27" />
-    <option name="width" value="1600" />
-    <option name="height" value="806" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="width" value="1400" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Kata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kata" type="462c0819:PsiDirectoryNode" />
+              <item name="CheckoutKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CheckoutKata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kata" type="462c0819:PsiDirectoryNode" />
+              <item name="CheckoutKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CheckoutKata" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="CheckoutKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CheckoutKata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="coder73" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CheckoutKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CheckoutKata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="coder73" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Kata" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Kata" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Kata" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Kata" type="616d4139:PackageViewModuleNode" />
-              <item name="com.coder73" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/coder73/ui" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.coder73" />
+      <recent name="com.coder73.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,11 +157,11 @@
   <component name="RunManager" selected="JUnit.CheckoutTests">
     <configuration name="CheckoutApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coder73.ui.CheckoutApplication" />
-      <module name="Kata" />
+      <module name="CheckoutKata" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coder73.core.PricingCalculator" />
+          <option name="PATTERN" value="com.coder73.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,7 +170,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="CheckoutTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kata" />
+      <module name="CheckoutKata" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coder73.tests.*" />
@@ -283,52 +183,6 @@
       <option name="MAIN_CLASS_NAME" value="com.coder73.tests.CheckoutTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CheckoutTests.WhenScanningAAATotalIs125" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coder73.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder73.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.coder73.tests.CheckoutTests" />
-      <option name="METHOD_NAME" value="WhenScanningAAATotalIs125" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CheckoutTests.WhenScanningATotalIs50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coder73.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder73.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.coder73.tests.CheckoutTests" />
-      <option name="METHOD_NAME" value="WhenScanningATotalIs50" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -377,17 +231,13 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CheckoutApplication" />
       <item itemvalue="JUnit.CheckoutTests" />
-      <item itemvalue="JUnit.CheckoutTests.WhenScanningATotalIs50" />
-      <item itemvalue="JUnit.CheckoutTests.WhenScanningAAATotalIs125" />
+      <item itemvalue="Application.CheckoutApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CheckoutTests" />
         <item itemvalue="Application.CheckoutApplication" />
-        <item itemvalue="JUnit.CheckoutTests.WhenScanningATotalIs50" />
-        <item itemvalue="JUnit.CheckoutTests.WhenScanningAAATotalIs125" />
       </list>
     </recent_temporary>
   </component>
@@ -396,137 +246,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9cf67255-cdb3-4a2b-8e59-42e6b3036d3d" name="Default" comment="" />
-      <created>1525464435523</created>
+      <changelist id="314012e6-c284-4ba9-80e0-8df2b988df36" name="Default" comment="" />
+      <created>1526055743076</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1525464435523</updated>
+      <updated>1526055743076</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1525533262560</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1525533262560</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added multibuy feature">
-      <created>1525536779312</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1525536779312</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added unit test for sku 'c'">
-      <created>1525536880454</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1525536880454</updated>
-    </task>
-    <task id="LOCAL-00004" summary="refactor for pricing calculators">
-      <created>1525537712182</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1525537712182</updated>
-    </task>
-    <task id="LOCAL-00005" summary="refactor for pricing calculators">
-      <created>1525537934061</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1525537934061</updated>
-    </task>
-    <task id="LOCAL-00006" summary="refactor DI for pricing provider">
-      <created>1525538256942</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1525538256942</updated>
-    </task>
-    <task id="LOCAL-00007" summary="refactor tests">
-      <created>1525538445047</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1525538445047</updated>
-    </task>
-    <task id="LOCAL-00008" summary="UI for checkout">
-      <created>1525632508112</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1525632508112</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Refactor for pricing rule service">
-      <created>1525775505010</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1525775505010</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutTests_WhenScanningATotalIs50 - 2018.05.08 at 11h 03m 23s.xml">
-      <configuration name="CheckoutTests.WhenScanningATotalIs50" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests_WhenScanningATotalIs50 - 2018.05.08 at 11h 05m 25s.xml">
-      <configuration name="CheckoutTests.WhenScanningATotalIs50" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.08 at 11h 07m 57s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests_WhenScanningAAATotalIs125 - 2018.05.08 at 11h 09m 52s.xml">
-      <configuration name="CheckoutTests.WhenScanningAAATotalIs125" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.08 at 11h 10m 10s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.08 at 11h 10m 47s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.08 at 11h 28m 40s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests_WhenScanningATotalIs50 - 2018.05.08 at 11h 30m 00s.xml">
-      <configuration name="CheckoutTests.WhenScanningATotalIs50" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.08 at 11h 30m 50s.xml">
-      <configuration name="CheckoutTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutTests - 2018.05.08 at 16h 25m 09s.xml">
+    <history-entry file="CheckoutTests - 2018.05.11 at 17h 23m 00s.xml">
       <configuration name="CheckoutTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1600" height="806" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="992" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32944608" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32944608" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
+      <window_info anchor="bottom" id="Messages" weight="0.32983682" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983682" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -534,272 +294,38 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="added multibuy feature" />
-    <MESSAGE value="added unit test for sku 'c'" />
-    <MESSAGE value="refactor for pricing calculators" />
-    <MESSAGE value="refactor DI for pricing provider" />
-    <MESSAGE value="refactor tests" />
-    <MESSAGE value="UI for checkout" />
-    <MESSAGE value="Refactor for pricing rule service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor for pricing rule service" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/coder73/PricingRule.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="14" />
-    </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>item.getSku().equals(r.getSku())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>item.getSku().compareTo(r.getSku())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>item.getSku()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>item.getSku() == r.getSku()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>item</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Kata/com/coder73/PricingRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/CheckoutForm.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/CheckoutForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/TestForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/TestForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/CheckoutApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/StandardPricingCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="258" column="23" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/DiscountPricingCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/MockPricingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/BasketItem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/ui/CheckoutApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/Checkout.java">
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/service/PricingRuleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/PricingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/tests/CheckoutTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/DbPricingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        <state relative-caret-position="340">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/ui/App.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coder73/ui/App.java">
+    <entry file="file://$PROJECT_DIR$/src/com/coder73/service/DbPricingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="179">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -855,7 +381,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Kata</last-edited>
+          <last-edited>CheckoutKata</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

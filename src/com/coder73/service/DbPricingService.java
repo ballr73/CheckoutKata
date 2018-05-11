@@ -21,13 +21,8 @@ public class DbPricingService implements PricingService {
 
             if(rs!=null) {
                 while(rs.next()) {
-                    int id = rs.getInt("id");
-                    String sku = rs.getString("sku");
-                    double price = rs.getDouble("price");
-                    int multibuy = rs.getInt("multibuy");
-                    double multiprice = rs.getDouble("multiprice");
-
-                    rules.add(new PricingRule(id, sku, price, multibuy, multiprice));
+                    PricingRule rule = PricingRuleMapper.Map(rs);
+                    rules.add(rule);
 
                 }
                 rs.close();
