@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class PricingRuleMapper {
-    public static PricingRule Map(ResultSet rs) {
+    public PricingRule Map(ResultSet rs) {
         try {
             int id = rs.getInt("id");
             String sku = rs.getString("sku");

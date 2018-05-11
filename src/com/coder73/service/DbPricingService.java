@@ -21,7 +21,7 @@ public class DbPricingService implements PricingService {
 
             if(rs!=null) {
                 while(rs.next()) {
-                    PricingRule rule = PricingRuleMapper.Map(rs);
+                    PricingRule rule = new PricingRuleMapper().Map(rs);
                     rules.add(rule);
 
                 }
