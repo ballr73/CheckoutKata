@@ -26,8 +26,10 @@ public class App {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                checkout.scan(textField1.getText());
-
+                boolean result = checkout.scan(textField1.getText());
+                if(result == false) {
+                    JOptionPane.showMessageDialog(null, "Invalid Item!");
+                }
                 textArea1.setText("");
                 for (BasketItem item: checkout.getBasket()) {
                     textArea1.setText(textArea1.getText() + item.getSku() + " " + item.getQuantity() + "\n");

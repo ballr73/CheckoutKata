@@ -65,4 +65,10 @@ public class CheckoutTests {
         _checkout.voidItem("A");
         Assert.assertEquals(0.50, _checkout.total(), 0);
     }
+
+    @Test
+    public void WhenScanningDResultIsFalse() {
+        boolean result = _checkout.scan("D");
+        Assert.assertFalse(result);
+    }
 }

@@ -19,15 +19,25 @@ public class Checkout {
         _rules = _pricingService.getPricingRules();
 
     }
+
     public List<BasketItem> getBasket() {
         return _basket;
     }
-    public void scan(String sku) {
-       BasketItem item =  findItem(sku);
-       if(item !=null)
+
+    public boolean scan(String sku) {
+        PricingRule rule = findRule(sku);
+
+        if(rule == null)
+            return false;
+
+        BasketItem item =  findItem(sku);
+
+        if(item !=null)
            item.setQuantity(item.getQuantity()+1);
-       else
+        else
            _basket.add(new BasketItem(sku));
+
+        return true;
     }
 
     private BasketItem findItem(String sku) {
@@ -41,7 +51,7 @@ public class Checkout {
     public double total() {
         double total = 0;
         for (BasketItem item: _basket) {
-            PricingRule rule = findRule(item);
+            PricingRule rule = findRule(item.getSku());
             if(rule != null) {
                 total += this._pricingProvider.getPricingCalculator(item, rule).getTotal();
             }
@@ -50,9 +60,9 @@ public class Checkout {
         return total;
     }
 
-    private PricingRule findRule(BasketItem item) {
+    private PricingRule findRule(String sku) {
         for (PricingRule r: this._rules) {
-            if(item.getSku().equals(r.getSku())) {
+            if(sku.equals(r.getSku())) {
                 return r;
             }
         }
