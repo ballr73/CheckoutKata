@@ -11,7 +11,7 @@ public class Checkout {
     private PricingProvider _pricingProvider;
     private PricingService _pricingService;
 
-    public void Checkout() { }
+    public Checkout() { }
 
     public Checkout(PricingProvider pricingProvider, PricingService pricingService) {
         _pricingProvider = pricingProvider;
