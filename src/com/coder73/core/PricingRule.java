@@ -1,55 +1,55 @@
 package com.coder73.core;
 
 public class PricingRule {
-    private final int id;
-    private final String sku;
-    private final double price;
-    private final int multiBuy;
-    private final double multiPrice;
+    private final int _id;
+    private final String _sku;
+    private final double _price;
+    private final int _multiBuy;
+    private final double _multiPrice;
 
 
     public PricingRule(String sku, double price) {
-        this.sku = sku;
-        this.price = price;
-        this.multiBuy = 0;
-        this.multiPrice = 0;
-        this.id = 0;
+        this._sku = sku;
+        this._price = price;
+        this._multiBuy = 0;
+        this._multiPrice = 0;
+        this._id = 0;
     }
 
     public PricingRule(String sku, double price, int multiBuy, double multiPrice) {
-        this.sku = sku;
-        this.price = price;
-        this.multiBuy = multiBuy;
-        this.multiPrice = multiPrice;
-        this.id = 0;
+        this._sku = sku;
+        this._price = price;
+        this._multiBuy = multiBuy;
+        this._multiPrice = multiPrice;
+        this._id = 0;
     }
 
     public PricingRule(int id, String sku, double price, int multiBuy, double multiPrice) {
-        this.id = id;
-        this.sku = sku;
-        this.price = price;
-        this.multiBuy = multiBuy;
-        this.multiPrice = multiPrice;
+        this._id = id;
+        this._sku = sku;
+        this._price = price;
+        this._multiBuy = multiBuy;
+        this._multiPrice = multiPrice;
     }
 
     public int getId() {
-        return id;
+        return _id;
     }
 
     public double getPrice() {
-        return price;
+        return _price;
     }
 
     public String getSku() {
-        return sku;
+        return _sku;
     }
 
     public int getMultiBuy() {
-        return multiBuy;
+        return _multiBuy;
     }
 
     public double getMultiPrice() {
-        return multiPrice;
+        return _multiPrice;
     }
 
 
