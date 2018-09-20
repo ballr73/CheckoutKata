@@ -15,9 +15,9 @@ public class DbPricingService implements PricingService {
         List<PricingRule> rules = new ArrayList<>();
         try {
 
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Checkout?user=guest&password=Pa55w0rd1!&autoReconnect=true&useSSL=false");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/checkout?user=checkoutuser&password=Pa55w0rd1!&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
             Statement st =  conn.createStatement();
-            ResultSet rs = st.executeQuery("Select * from PricingRules");
+            ResultSet rs = st.executeQuery("Select * from pricing_rules");
 
             if(rs!=null) {
                 while(rs.next()) {
