@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="888" height="687"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -30,9 +30,6 @@
           </grid>
         </constraints>
         <properties/>
-        <clientProperties>
-          <caretAspectRatio class="java.lang.Float" value="0.04"/>
-        </clientProperties>
       </component>
       <component id="8055c" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
         <constraints>
@@ -40,10 +37,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
-        <clientProperties>
-          <caretAspectRatio class="java.lang.Float" value="0.04"/>
-        </clientProperties>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="d1345" class="javax.swing.JLabel" binding="label1">
         <constraints>
