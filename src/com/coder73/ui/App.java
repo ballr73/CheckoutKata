@@ -27,7 +27,7 @@ public class App {
             public void actionPerformed(ActionEvent e) {
 
                 boolean result = checkout.scan(textField1.getText());
-                if(result == false) {
+                if(!result) {
                     JOptionPane.showMessageDialog(null, "Invalid Item!");
                 }
                 textArea1.setText("");
