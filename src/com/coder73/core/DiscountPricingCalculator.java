@@ -1,22 +1,22 @@
 package com.coder73.core;
 
 public class DiscountPricingCalculator implements PricingCalculator {
-    private BasketItem item;
-    private PricingRule rule;
+    private BasketItem basketItem;
+    private PricingRule pricingRule;
 
-    public DiscountPricingCalculator(BasketItem item, PricingRule rule) {
-        this.item = item;
-        this.rule = rule;
+    public DiscountPricingCalculator(BasketItem basketItem, PricingRule pricingRule) {
+        this.basketItem = basketItem;
+        this.pricingRule = pricingRule;
     }
 
-    public double getTotal() {
-        double total = 0;
-        if(item.getSku().equals(rule.getSku())) {
-            int multiples = item.getQuantity() / rule.getMultiBuy();
-            total += rule.getMultiPrice() * multiples;
-            int remaining = item.getQuantity() - (multiples * rule.getMultiBuy());
-            total += remaining * rule.getPrice();
+    public double getTotalPrice() {
+        double totalPrice = 0;
+        if(basketItem.getSku().equals(pricingRule.getSku())) {
+            int multiples = basketItem.getQuantity() / pricingRule.getMultiBuy();
+            totalPrice += pricingRule.getMultiPrice() * multiples;
+            int remaining = basketItem.getQuantity() - (multiples * pricingRule.getMultiBuy());
+            totalPrice += remaining * pricingRule.getPrice();
         }
-        return total;
+        return totalPrice;
     }
 }

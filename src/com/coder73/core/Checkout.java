@@ -53,7 +53,7 @@ public class Checkout {
         for (BasketItem item: _basket) {
             PricingRule rule = findRule(item.getSku());
             if(rule != null) {
-                total += this._pricingProvider.getPricingCalculator(item, rule).getTotal();
+                total += this._pricingProvider.getPricingCalculator(item, rule).getTotalPrice();
             }
         }
 
